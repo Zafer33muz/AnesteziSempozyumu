@@ -1,0 +1,163 @@
+/* Bildiri Submission CSS */
+
+/* File Upload Styles */
+.file-upload-container {
+    margin-bottom: 1.5rem;
+}
+
+.file-upload-area {
+    border: 2px dashed #dee2e6;
+    border-radius: 0.5rem;
+    background-color: #f8f9fa;
+    transition: all 0.3s ease;
+}
+
+.file-upload-area.highlight {
+    border-color: #EE7003;
+    background-color: rgba(238, 112, 3, 0.05);
+}
+
+.file-upload-message {
+    padding: 2rem;
+    text-align: center;
+}
+
+.file-upload-message i {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: #EE7003;
+}
+
+.file-upload-message h5 {
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+.file-preview {
+    padding: 1rem;
+}
+
+.file-info {
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+    padding: 1rem;
+}
+
+.file-details {
+    flex-grow: 1;
+    margin-left: 1rem;
+}
+
+.file-name {
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+    word-break: break-all;
+}
+
+.file-size {
+    font-size: 0.875rem;
+    color: #6c757d;
+}
+
+/* Author Item Styles */
+.author-item {
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+    margin-bottom: 1rem;
+    padding: 1.5rem;
+    transition: all 0.3s ease;
+}
+
+.author-item:hover {
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+/* Submission Interface Styles */
+.submission-interface {
+    padding: 1rem 0;
+}
+
+.submission-header {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.submission-header h3 {
+    color: #333;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.submission-header p {
+    color: #6c757d;
+}
+
+/* Form Styles */
+#abstractForm .form-label {
+    font-weight: 500;
+}
+
+#abstractForm .form-text {
+    font-size: 0.8rem;
+    color: #6c757d;
+}
+
+/* Button Styles */
+#submitAbstractBtn {
+    background-color: #EE7003;
+    border-color: #EE7003;
+    font-weight: 600;
+}
+
+#submitAbstractBtn:hover {
+    background-color: #d86603;
+    border-color: #d86603;
+}
+
+#addAuthorBtn {
+    color: #EE7003;
+    border-color: #EE7003;
+}
+
+#addAuthorBtn:hover {
+    background-color: #EE7003;
+    color: #fff;
+}
+
+/* Success Message Styles */
+.success-message {
+    text-align: center;
+    padding: 3rem 0;
+}
+
+.success-message i {
+    font-size: 5rem;
+    color: #28a745;
+    margin-bottom: 1.5rem;
+}
+
+.success-message h3 {
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.success-message .lead {
+    margin-bottom: 1.5rem;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .file-upload-message i {
+        font-size: 2.5rem;
+    }
+    
+    .file-upload-message h5 {
+        font-size: 1.1rem;
+    }
+    
+    .author-item {
+        padding: 1rem;
+    }
+}
