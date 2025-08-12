@@ -1,2 +1,17 @@
-# AnesteziSempozyumu
-Mersin Anestezi Semineri web projesi mobil uyumlu çok sayfalı yapı hero ve program akışı, çevrim içi kayıt, bildiri özet yükleme/doğrulama, bilimsel &amp; düzenleme kurulları, başkanın daveti, katılımcı ve aydınlatma metni sayfaları, dinamik etkileşimli JS, erişilebilir modern tasarım ve net iletişim performans optimizasyonu, SEO uyumu güvenli deneyim.
+## Özellikler
+
+- Responsive tasarım (mobil, tablet ve masaüstü uyumlu)
+- Bootstrap 5 framework kullanımı
+- Dinamik geri sayım sayacı
+- Modern ve kullanıcı dostu arayüz
+- Animasyonlu elementler
+
+## Kullanılan Teknolojiler
+
+- HTML5
+- CSS3
+- JavaScript
+- Bootstrap 5
+- Font Awesome 6
+
+
